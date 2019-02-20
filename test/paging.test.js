@@ -60,7 +60,7 @@ describe("Paging", async () => {
     )
 
     // check the total number of movies, including both pages
-    expect(totalNumMovies).toEqual(31680)
+    expect(totalNumMovies).toEqual(31675)
 
     // check the number of movies on the first page
     expect(firstPage.length).toEqual(20)
